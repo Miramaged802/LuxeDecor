@@ -119,24 +119,24 @@ const Checkout = () => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="max-w-7xl mx-auto">
-        <div className="flex items-center justify-between mb-8">
-          <h1 className="text-3xl font-bold text-gray-800">Checkout</h1>
-          <div className="flex items-center space-x-2 text-gray-600">
-            <span className="flex items-center">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-8">
+          <h3 className="text-3xl font-bold text-gray-800 mb-4 sm:mb-0">Checkout</h3>
+          <div className="flex items-center flex-wrap text-gray-600">
+            <span className="flex items-center mr-2 mb-2 sm:mb-0">
               <span className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-100 text-blue-600 text-sm">
                 1
               </span>
               <span className="ml-2">Cart</span>
             </span>
-            <ChevronRight className="w-4 h-4" />
-            <span className="flex items-center text-blue-600">
+            <ChevronRight className="w-4 h-4 mx-1" />
+            <span className="flex items-center text-blue-600 mr-2 mb-2 sm:mb-0">
               <span className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm">
                 2
               </span>
               <span className="ml-2">Shipping</span>
             </span>
-            <ChevronRight className="w-4 h-4" />
-            <span className="flex items-center">
+            <ChevronRight className="w-4 h-4 mx-1" />
+            <span className="flex items-center mb-2 sm:mb-0">
               <span className="w-6 h-6 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 text-sm">
                 3
               </span>
